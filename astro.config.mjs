@@ -4,6 +4,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
+	base: process.env.BASE_URL || '/dsm-freshman-guide/',
 	integrations: [
 		starlight({
 			title: 'DSM 신입생 가이드',
