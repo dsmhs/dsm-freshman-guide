@@ -1,0 +1,19 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+Add additional Tailwind styles to this file, for example with @layer:
+https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
+*/
+
+@layer base {
+    html {
+        font-family: 'Pretendard Variable', 'Noto Sans KR', sans-serif;
+        font-size: 15px;
+        color: #1d1d1f;
+        zoom: 100%;
+    }
+}
