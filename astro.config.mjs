@@ -7,6 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'DSM 신입생 가이드',
+			favicon: './src/assets/favicon.ico',
 			sidebar: [
 				{
 					label: '시작하기',
