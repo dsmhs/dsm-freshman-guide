@@ -57,6 +57,7 @@ title: 01. 공부 키워드
     - 외래키
     - 복합키
 - 트랜잭션 / ACID
+- 인덱스
 - NoSQL
 - redis
 - JPA
