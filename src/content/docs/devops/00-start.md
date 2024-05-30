@@ -1,4 +1,4 @@
 ---
-title: 00. DevOps 시작하기
+title: DevOps 시작하기
 ---
 
