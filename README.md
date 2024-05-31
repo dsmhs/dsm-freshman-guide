@@ -5,7 +5,22 @@
 
 ## 프로젝트 실행 방법
 
-```
+### 툴 설치
+- window
+  - https://nodejs.org/en/download에서 node.js 설치
+  - pnpm 설치
+    ```bash
+    npm install -g pnpm
+    ```
+- macOS
+  - node.js 및 pnpm 설치
+    ```bash
+    brew install node
+    npm install -g pnpm
+    ```
+
+### 실행
+```bash
 pnpm install
 pnpm run dev
 ```
