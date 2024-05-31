@@ -1,5 +1,7 @@
 # dependencies
 node_modules/
+dist/
+.astro/
 
 # logs
 npm-debug.log*
