@@ -17,12 +17,32 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
 
-      - name: Install, build, and upload your site
-        uses: withastro/action@v2
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v4z
         with:
-          path: .
           node-version: 18
-          package-manager: pnpm@latest
+          cache: pnpm
+          cache-dependency-path: "pnpm-lock.yaml"
+
+      - name: Install
+        shell: bash
+        run: pnpm install
+
+      - name: Install playwright
+        shell: bash
+        run: npx playwright-core install --with-deps chromium
+
+      - name: Build
+        shell: bash
+        run: pnpm run build
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./dist/"
 
   deploy:
     needs: build
