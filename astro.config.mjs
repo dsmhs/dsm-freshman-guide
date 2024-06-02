@@ -1,10 +1,15 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import tailwind from '@astrojs/tailwind';
+import rehypeMermaid from 'rehype-mermaid';
+import { rehypeMermaidOptions } from './src/plugins/rehype-mermaid';
 
 // https://astro.build/config
 export default defineConfig({
 	base: process.env.BASE_URL || '/dsm-freshman-guide/',
+	markdown: {
+		rehypePlugins: [[rehypeMermaid, rehypeMermaidOptions]],
+	},
 	integrations: [
 		starlight({
 			title: 'DSM 신입생 가이드',
@@ -43,5 +48,5 @@ export default defineConfig({
 			customCss: ['./src/tailwind.css'],
 		}),
 		tailwind({ applyBaseStyles: true }),
-	],
+	]
 });

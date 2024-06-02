@@ -22,5 +22,6 @@
 ### 실행
 ```bash
 pnpm install
+npx playwright-core install --with-deps chromium
 pnpm run dev
 ```
