@@ -26,8 +26,8 @@ graph LR
     c[
 <img width="736" alt="client" src="https://github.com/dsmhs/dsm-freshman-guide/assets/81006587/df0f4dd4-b55a-482e-a61a-7d97cc97dba2"/> ㅤㅤㅤ클라이언트ㅤㅤ]
     s[<img alt="server" src="https://github.com/dsmhs/dsm-freshman-guide/assets/81006587/7bc84f67-a4a7-43db-bfde-53f6e4aa25d1"/>ㅤㅤㅤㅤ서버ㅤㅤㅤㅤ]
-    c -- 정보 주세요! (요청) -->s
-    s -- 정보 드립니다. (반환) -->c
+    c -- 1. 정보 주세요! (요청) -->s
+    s -- 2. 정보 드립니다. (반환) -->c
     end
 ```
 
@@ -57,9 +57,9 @@ graph TB
         s[<img src="https://github.com/dsmhs/dsm-freshman-guide/assets/81006587/9644f3f5-7759-4506-89fc-a88a9161b319"/>ㅤ서버ㅤ]
         b[<img src="https://github.com/dsmhs/dsm-freshman-guide/assets/81006587/e888df59-ed23-4c98-8227-0bc2f27fe5eb"/> 브라우저]
 
-        c -- 웹 정보 주세요! (요청) -->s
-        s -- 정보 드립니다. (반환) -->c
-        c -- 브라우저에서 실행 --> b
+        c -- 1. 웹 정보 주세요! (요청) -->s
+        s -- 2. 정보 드립니다. (반환) -->c
+        c -- 3. 브라우저에서 실행 --> b
     end
 
     subgraph 앱 App
@@ -102,13 +102,13 @@ graph TB
     b[<img src="https://github.com/dsmhs/dsm-freshman-guide/assets/81006587/e888df59-ed23-4c98-8227-0bc2f27fe5eb"/> 브라우저]
     user[<img src="https://github.com/dsmhs/dsm-freshman-guide/assets/81006587/10dca170-49bc-4e14-9adf-91167a6949f5"> 사용자]
 
-    c -- 웹 정보 주세요! --> front
-    front -- 정보 드립니다. --> c
-    c -- 브라우저에서 실행 --> b
+    c -- 1. 웹 정보 주세요! --> front
+    front -- 2. 정보 드립니다. --> c
+    c -- 3. 브라우저에서 실행 --> b
 
-    b -- 사용자 데이터 주세요! --> back
-    back -- 정보 드립니다. --> b
-    user -- 렌더링 된 화면을 확인 --> b
+    b -- 4. 사용자 데이터 주세요! --> back
+    back -- 5. 정보 드립니다. --> b
+    user -- 6. 렌더링 된 화면을 확인 --> b
 
     end
 ```
@@ -124,10 +124,10 @@ graph TB
     a[<img src="https://github.com/dsmhs/dsm-freshman-guide/assets/81006587/798e74d7-2688-4693-8d00-0ab589bf570f"/> ㅤ앱ㅤ]
     user[<img src="https://github.com/dsmhs/dsm-freshman-guide/assets/81006587/10dca170-49bc-4e14-9adf-91167a6949f5"> 사용자]
 
-    c -- 앱 실행 --> a
-    a -- 사용자 데이터 주세요! --> back
-    back -- 정보 드립니다. --> a
-    user -- 렌더링 된 화면을 확인 --> a
+    c -- 1. 앱 실행 --> a
+    a -- 2. 사용자 데이터 주세요! --> back
+    back -- 3. 정보 드립니다. --> a
+    user -- 4. 렌더링 된 화면을 확인 --> a
     end
 ```
 
