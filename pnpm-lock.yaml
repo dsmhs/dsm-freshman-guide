@@ -20,6 +20,9 @@ dependencies:
   playwright:
     specifier: ^1.44.1
     version: 1.44.1
+  playwright-core:
+    specifier: ^1.44.1
+    version: 1.44.1
   rehype-mermaid:
     specifier: ^2.1.0
     version: 2.1.0
