@@ -60,4 +60,3 @@ jobs:
           preview-branch: main
           source-dir: .
           umbrella-dir: pr-preview
-          action: auto-
