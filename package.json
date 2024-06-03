@@ -15,6 +15,9 @@
     "@astrojs/starlight-tailwind": "^2.0.3",
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.8.6",
+    "playwright": "^1.44.1",
+    "playwright-core": "^1.44.1",
+    "rehype-mermaid": "^2.1.0",
     "sharp": "^0.32.5",
     "tailwindcss": "^3.4.1"
   }
