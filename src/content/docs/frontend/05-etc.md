@@ -12,6 +12,8 @@ title: 참고
 
 [Chrome 웹브라우저](https://www.google.com/intl/ko_kr/chrome/)
 
+## 웹 개발을 할 때에 사용하면 좋고 편리한 VSCode Extension
+
 ### 기본 설정
 
 **Korean Language Pack for Visual Studio Code**
