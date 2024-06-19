@@ -6,7 +6,7 @@ title: 참고
 
 **VSCode**
 
-[](https://code.visualstudio.com/download)
+[VSCode 다운로드](https://code.visualstudio.com/download)
 
 **Chrome**
 
