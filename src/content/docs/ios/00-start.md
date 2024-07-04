@@ -5,7 +5,7 @@ title: iOS 시작하기
 이 문서는 **iOS Native 앱 개발**을 기준으로 작성되었습니다.
 
 <p align="center">
-  <img src="https://github.com/dsmhs/dsm-freshman-guide/assets/102791216/690341ad-302b-4364-92d7-7a341ea37f7f" alt="ios logo"/>)
+  <img src="https://github.com/dsmhs/dsm-freshman-guide/assets/102791216/690341ad-302b-4364-92d7-7a341ea37f7f" alt="ios logo"/>
 </p>
 
 ### iOS란?
