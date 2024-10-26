@@ -22,8 +22,8 @@
 ## 프로젝트 실행 방법
 
 ### 툴 설치
-- window
-  - https://nodejs.org/en/download에서 node.js 설치
+- Windows
+  - https://nodejs.org/en/download 에서 node.js 설치
   - pnpm 설치
     ```bash
     npm install -g pnpm
