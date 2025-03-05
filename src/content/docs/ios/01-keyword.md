@@ -31,7 +31,10 @@ title: 공부 키워드
         - [Moya](https://github.com/Moya/Moya)
 - SwiftUI
     - UIKit에 어느정도 적응한 후 배우는 것을 추천
-    - 어느 하나만 잘해선 안됨
+- 더 많은 레이아웃 프레임워크
+    - [PinLayout](https://github.com/layoutBox/PinLayout)
+    - [FlexLayout](https://github.com/layoutBox/FlexLayout)
+    - 등등
 
 
 ### 공부해야하는 키워드들 (심화)
@@ -41,13 +44,25 @@ title: 공부 키워드
 
 </aside>
 
+- 객체 지향 5원칙
+- DI(Dependency Injection: 의존성 주입)
 - Clean Architecture
-- Design Pattern / Architecture Pattern
+- Architecture Pattern
     - MVC
     - MVVM
     - TCA
-- RxSwift / Combine
-- Tuist / XCConfing
+    - 등등
+- Design Pattern
+    - Delegate
+    - Singleton
+    - Observer
+    - Factory
+    - 등등
+- 비동기 처리
+    - GCD
+    - GCDRxSwift
+    - Combine
+    - Swift Concurrency
+- Tuist / XCConfing / 환경변수
 - CI / CD
-    - Github Action
-    - Xcode Clooud
+- 자동화
