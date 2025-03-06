@@ -35,7 +35,7 @@ jobs:
 
       - name: Install playwright
         shell: bash
-        run: npx playwright-core install --with-deps chromium
+        run: pnpm exec playwright install
 
       - name: Build
         shell: bash

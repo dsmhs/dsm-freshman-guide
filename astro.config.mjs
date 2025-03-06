@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig, passthroughImageService } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import tailwind from '@astrojs/tailwind';
 import rehypeMermaid from 'rehype-mermaid';
@@ -10,6 +10,9 @@ export default defineConfig({
 	markdown: {
 		rehypePlugins: [[rehypeMermaid, rehypeMermaidOptions]],
 	},
+  image: {
+    service: passthroughImageService(),
+  },
 	integrations: [
 		starlight({
 			title: 'DSM 신입생 가이드',
