@@ -4,7 +4,8 @@ title: 추천 공부 자료
 
 ### DSM iOS Study
 
-7기부터 내려오는 iOS Study 노션 (이미지 클릭 시 이동)
+> 7기부터 내려오는 iOS Study 노션 (이미지 클릭 시 이동)
+
 <a href="https://roan-peony-997.notion.site/DSM-iOS-Study-824aa0d30408461894e2fe8ff3174874" target="_blank">
     <img class="iOS Study" src="https://github.com/user-attachments/assets/7febd6b7-e17d-4faa-a66f-5e0adc1ad574"/>
 </a>
