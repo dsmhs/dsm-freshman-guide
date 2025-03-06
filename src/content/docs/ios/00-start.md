@@ -10,7 +10,7 @@ title: iOS 시작하기
 
 ### iOS란?
 
-iOS는 [Apple](https://www.apple.com/)의 기기인 iPhone에 탑제되어 있는 운영체제입니다. 보통 iOS 앱 개발이라 하면 iOS가 탑제되어 있는 iPhone 뿐만 아니라 iPad(iPadOS), Apple Watch(WatchOS), Mac(MacOS) 등의 어플리케이션을 개발하는 것도 의미하지만, 보통은 iPhone(iOS)의 앱을 개발하는 것을 의미합니다. iOS는 클라이언트 중 대표적인 분야입니다. 보통은 서버에게 요청을 보내고 받아온 데이터를 처리하는 역할을 합니다. 더 자세한 내용은 [클라이언트](/dsm-freshman-guide/start/02-client-and-server)를 참고해보세요!
+iOS는 [Apple](https://www.apple.com/)의 기기인 iPhone에 탑제되어 있는 운영체제입니다. 보통 iOS 앱 개발이라 하면 iOS가 탑제되어 있는 iPhone 뿐만 아니라 iPad(iPadOS), Apple Watch(WatchOS), Mac(MacOS) 등의 어플리케이션을 개발하는 것도 의미하지만, 보통은 iPhone(iOS)의 앱을 개발하는 것을 의미합니다. iOS는 클라이언트 중 대표적인 분야입니다. 보통은 서버에게 요청을 보내고 받아온 데이터를 처리하는 역할을 합니다. 더 자세한 내용은 [클라이언트](/dsm-freshman-guide/start/03-client-and-server#클라이언트)를 참고해보세요!
 
 Apple의 OS는 iOS, MacOS, tvOS 등 여러 OS가 있습니다. 이 OS들은 서로 상호작용이 매우 잘 된다는 장점이 있습니다.
 
