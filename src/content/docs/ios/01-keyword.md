@@ -54,7 +54,7 @@ title: 공부 키워드
     - 등등
 - 비동기 처리
     - GCD
-    - GCDRxSwift
+    - RxSwift
     - Combine
     - Swift Concurrency
 - Tuist / XCConfing / 환경변수
